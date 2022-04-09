@@ -9,7 +9,7 @@ int main(void)
 {
 char alphabet;
 
-for (lower_case = 'a'; lower_case <= 'z'; lower_case++)
+for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 {
 
 if (alphabet == 'q')
