@@ -1,13 +1,23 @@
-#include <unistd.h> 
-#include <sys/syscall.h> 
+#include <stdio.h>
+
+#include <unistd.h>
+
 /**
- * main - Entry point
- *
- * return to 1
+
+ * main - Prints out the last part of a quote in the standard error.
+
+ * Return: 1 if success.
+
  */
+
 int main(void)
-{	
-const char msg[] = "and that piece of art is useful" - Dora Korpar, 2015-10-19\n";
-syscall(SYS_write, 1, msg, sizeof(msg)); 
-return (1); 
-} 
+
+{
+
+	fprintf(stderr, "and that piece of art is useful\" - Dora Korpar,");
+
+	fprintf(stderr, " 2015-10-19\n");
+
+	return (1);
+
+}
