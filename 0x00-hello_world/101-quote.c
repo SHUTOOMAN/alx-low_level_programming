@@ -1,17 +1,11 @@
 #include <stdio.h>
-
 #include <unistd.h>
-
 /**
-
  * main - Entry point.
-
  * Return: 1 if success.
-
  */
 
 int main(void)
-
 {
 
 	fprintf(stderr, "and that piece of art is useful\" - Dora Korpar,");
